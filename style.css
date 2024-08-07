@@ -13,7 +13,13 @@ body{
     overflow: hidden;
     margin: 0;
 }
+
 .user-form{
+    width: 100%;
+    max-width: 700px;
+}
+
+.user-form input {
     width: 100%;
     display: block;
     background-color: #211d27;
@@ -24,4 +30,12 @@ body{
     margin-bottom: 2rem;
     font-family: inherit;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05);
+}
+
+.user-form input::placeholder{
+    color: #bbb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user-form input:focus{
+    outline: none;
 }
